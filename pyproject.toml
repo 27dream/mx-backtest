@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "mx-backtest"
+version = "0.1.0"
+description = "A股事件驱动回测引擎"
+readme = "README.md"
+license = {text = "MIT"}
+python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/27dream/mx-backtest"
